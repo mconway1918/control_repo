@@ -1,5 +1,8 @@
 node default {
-  file { '/root/README':
+  file { 'C:\temp':
+    ensure => directory,
+  }
+  file { 'C:\temp\README.txt':
     ensure => file,
   }
 }

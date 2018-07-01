@@ -1,4 +1,4 @@
-class profile::lnxbase.pp {
+class profile::lnxbase {
   file { '/root/README':
     ensure => present,
   }
